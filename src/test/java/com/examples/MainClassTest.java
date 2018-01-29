@@ -39,7 +39,7 @@ public class MainClassTest extends JerseyTest {
     }
 
     @Test
-    public void shouldReturn() {
+    public void shouldReturnListOfFibValues() {
         given()
                 .when().get(FIB_ENDPOINT)
                 .then()
