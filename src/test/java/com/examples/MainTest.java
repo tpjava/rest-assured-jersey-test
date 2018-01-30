@@ -11,7 +11,7 @@ import static org.hamcrest.CoreMatchers.containsString;
 /**
  * Unit test for simple App.
  */
-public class MainClassTest extends BaseClassTest {
+public class MainTest extends BaseTest {
 
     private static final String FIB_ENDPOINT = "fib";
 

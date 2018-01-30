@@ -4,7 +4,7 @@ import com.jayway.restassured.RestAssured;
 import org.glassfish.jersey.test.JerseyTest;
 import org.junit.BeforeClass;
 
-public class BaseClassTest extends JerseyTest {
+public class BaseTest extends JerseyTest {
     private static final int TEST_PORT = 7003;
     private static final String TEST_URL = "http://localhost";
 
